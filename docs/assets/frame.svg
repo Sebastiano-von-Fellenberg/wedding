@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" preserveAspectRatio="none" fill="none" stroke="#20479b" stroke-width="5">
+  <path d="M120 24H1080M24 96V664M1176 96V664M120 736H1080"/>
+  <path d="M120 24V96H96V24H24V96H120"/>
+  <path d="M1080 24V96H1104V24H1176V96H1080"/>
+  <path d="M24 664V736H96V664H120V736"/>
+  <path d="M1176 664V736H1104V664H1080V736"/>
+</svg>

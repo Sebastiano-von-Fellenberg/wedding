@@ -1,0 +1,59 @@
+:root,
+html[data-theme="light"],
+html[data-theme="dark"] {
+  --primary: #2855a6;
+  --secondary: #1e4387;
+  --accent: #f8f5eb;
+  --header-color: #fff;
+  --breadcrumbs-bg: #eef2fa;
+  --breadcrumbs-fg: #24467f;
+  --link-fg: #2855a6;
+  --link-hover-color: #173b79;
+  --button-bg: #2855a6;
+  --button-hover-bg: #173b79;
+  --body-bg: #f8f5eb;
+  --body-fg: #183665;
+  --text-color: #183665;
+  --body-quiet-color: #526073;
+  --hairline-color: #c8d4e9;
+  --border-color: #9baac2;
+  --header-link-color: #fff;
+  --darkened-bg: #f1eee4;
+  --selected-bg: #e7ecf6;
+}
+@media (prefers-color-scheme: dark) {
+  html[data-theme="auto"] {
+    --body-bg: #f8f5eb;
+    --body-fg: #183665;
+    --text-color: #183665;
+    --body-quiet-color: #526073;
+    --hairline-color: #c8d4e9;
+    --border-color: #9baac2;
+    --link-fg: #2855a6;
+    --link-hover-color: #173b79;
+    --darkened-bg: #f1eee4;
+    --selected-bg: #e7ecf6;
+  }
+}
+body { background: var(--body-bg); }
+#header { border-bottom: 4px solid #f8f5eb; box-shadow: 0 2px 0 #2855a6; }
+#site-name { display: flex; align-items: baseline; gap: 16px; }
+#site-name a { font-family: Georgia, "Times New Roman", serif; font-size: 25px; }
+#site-name span { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; opacity: .8; }
+.login #container { border: 1px solid #2855a6; box-shadow: 10px 10px 0 #e7ecf6; }
+.login #header { padding: 24px 30px; }
+.login #site-name { display: block; }
+.login #site-name span { display: block; margin-top: 8px; }
+.login #content h1,
+.login label { color: #24467f; }
+.login input[type="text"],
+.login input[type="password"] { color: #172f57; background: #fffdf8; }
+.wedding-summary { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: 12px; margin: 0 0 16px; }
+.wedding-summary div { background: #fff; border: 1px solid #c8d4e9; padding: 18px; }
+.wedding-summary strong { display: block; color: #2855a6; font-family: Georgia, "Times New Roman", serif; font-size: 30px; }
+.wedding-summary span { color: #526073; font-size: 12px; }
+.wedding-export-note { color: #526073; margin-bottom: 22px; }
+@media (max-width: 767px) {
+  #site-name span { display: none; }
+  .wedding-summary { grid-template-columns: repeat(2, 1fr); }
+}

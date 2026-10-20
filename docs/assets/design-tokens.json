@@ -1,0 +1,33 @@
+{
+  "color": {
+    "aegean": "#20479B",
+    "aegeanDark": "#173775",
+    "aegeanSoft": "#E7EDF8",
+    "paper": "#FFFEFA",
+    "paperWarm": "#F7F3EA",
+    "ink": "#18315F",
+    "muted": "#66728A",
+    "line": "#A9B9D9"
+  },
+  "type": {
+    "display": "Georgia, 'Times New Roman', serif",
+    "body": "'Palatino Linotype', Palatino, Georgia, serif",
+    "ui": "Arial, Helvetica, sans-serif"
+  },
+  "frame": {
+    "asset": "frame-corner.png",
+    "source": "frame-corner-source.png",
+    "sourceCrop": [25, 22, 165, 162],
+    "nativeSize": [140, 140],
+    "connector": {"x": 9, "y": 10},
+    "method": "pixel-extracted invitation artwork; mirror the same corner four ways"
+  },
+  "oliveBranches": {
+    "source": "olive-branches-ai-source.png",
+    "assets": ["olive-branches-pair.png", "olive-branch-left.png", "olive-branch-right.png"],
+    "method": "AI background extraction approved by the couple; split at the source image midpoint",
+    "uses": ["brand ornament", "schedule ornaments", "empty-state ornament"]
+  },
+  "motifs": ["pixel-extracted mirrored Greek-key corner unit", "invitation vase and olive branch extraction", "fine blue rules"],
+  "source": "Invitation artwork supplied by the couple; palette sampled from the blue ink."
+}
